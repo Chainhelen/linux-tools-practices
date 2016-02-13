@@ -1,0 +1,9 @@
+-DDEBUG
+-include ../config.h
+-I../common
+-I/usr/include/c++/4.9/
+-I/usr/include/c++/4.9/bits/
+-I/usr/include/
+-I/home/all/work/qt/5.5/gcc_64/include/
+-I/home/all/work/qt/5.5/gcc_64/include/QtWidgets/
+-I/home/all/work/qt/5.5/gcc_64/include/QtGui/

@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+BUTTON_WIDTH	common.h	12;"	d
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -D_REENTRANT -Wall -W -fPIC $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CTRBUTTON_H	CtrButton.h	2;"	d
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -D_REENTRANT -Wall -W -fPIC $(DEFINES)$/;"	m
+CtrButton	CtrButton.cpp	/^CtrButton::CtrButton(QWidget *parent)$/;"	f	class:CtrButton	signature:(QWidget *parent)
+CtrButton	CtrButton.h	/^        CtrButton(QWidget *parent = 0);$/;"	p	class:CtrButton	access:public	signature:(QWidget *parent = 0)
+CtrButton	CtrButton.h	/^class CtrButton : public QWidget{$/;"	c	inherits:QWidget
+CtrButton::CtrButton	CtrButton.cpp	/^CtrButton::CtrButton(QWidget *parent)$/;"	f	class:CtrButton	signature:(QWidget *parent)
+CtrButton::CtrButton	CtrButton.h	/^        CtrButton(QWidget *parent = 0);$/;"	p	class:CtrButton	access:public	signature:(QWidget *parent = 0)
+CtrButton::boxLayout	CtrButton.h	/^        QHBoxLayout *boxLayout;$/;"	m	class:CtrButton	access:private
+CtrButton::initPushButton	CtrButton.cpp	/^void CtrButton::initPushButton()$/;"	f	class:CtrButton	signature:()
+CtrButton::initPushButton	CtrButton.h	/^        void initPushButton();$/;"	p	class:CtrButton	access:public	signature:()
+CtrButton::metaObject	moc_CtrButton.cpp	/^const QMetaObject *CtrButton::metaObject() const$/;"	f	class:CtrButton	signature:() const
+CtrButton::pauseButton	CtrButton.h	/^        QPushButton *pauseButton;$/;"	m	class:CtrButton	access:private
+CtrButton::qt_metacall	moc_CtrButton.cpp	/^int CtrButton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CtrButton	signature:(QMetaObject::Call _c, int _id, void **_a)
+CtrButton::qt_metacast	moc_CtrButton.cpp	/^void *CtrButton::qt_metacast(const char *_clname)$/;"	f	class:CtrButton	signature:(const char *_clname)
+CtrButton::qt_static_metacall	moc_CtrButton.cpp	/^void CtrButton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CtrButton	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+CtrButton::startButton	CtrButton.h	/^        QPushButton *startButton;$/;"	m	class:CtrButton	access:private
+CtrButton::staticMetaObject	moc_CtrButton.cpp	/^const QMetaObject CtrButton::staticMetaObject = {$/;"	m	class:CtrButton	file:
+CtrButton::~CtrButton	CtrButton.cpp	/^CtrButton::~CtrButton()$/;"	f	class:CtrButton	signature:()
+CtrButton::~CtrButton	CtrButton.h	/^        ~CtrButton();$/;"	p	class:CtrButton	access:public	signature:()
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = #avoid trailing-slash linebreak$/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/5.5\/gcc_64\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DISTDIR	Makefile	/^DISTDIR = \/home\/all\/work\/qt\/qt_project\/test_QGra\/.tmp\/main1.0.0$/;"	m
+DISTNAME	Makefile	/^DISTNAME      = main1.0.0$/;"	m
+FOOD_H	Food.h	3;"	d
+FOOD_RADIUS	Food.cpp	/^static const qreal FOOD_RADIUS = 3;$/;"	v	file:
+Food	Food.cpp	/^Food::Food(qreal x, qreal y)$/;"	f	class:Food	signature:(qreal x, qreal y)
+Food	Food.h	/^        Food(qreal x, qreal y);    $/;"	p	class:Food	access:public	signature:(qreal x, qreal y)
+Food	Food.h	/^class Food : public QGraphicsItem$/;"	c	inherits:QGraphicsItem
+Food::Food	Food.cpp	/^Food::Food(qreal x, qreal y)$/;"	f	class:Food	signature:(qreal x, qreal y)
+Food::Food	Food.h	/^        Food(qreal x, qreal y);    $/;"	p	class:Food	access:public	signature:(qreal x, qreal y)
+Food::Shape	Food.h	/^        QPainterPath Shape() const;$/;"	p	class:Food	access:public	signature:() const
+Food::boundingRect	Food.cpp	/^QRectF Food::boundingRect() const$/;"	f	class:Food	signature:() const
+Food::boundingRect	Food.h	/^        QRectF boundingRect() const;$/;"	p	class:Food	access:public	signature:() const
+Food::paint	Food.h	/^        void paint(QPainter *painter, const QStyleOptionGraphicsItem *,QWidget *);$/;"	p	class:Food	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *,QWidget *)
+INCPATH	Makefile	/^INCPATH       = -I. -I..\/..\/5.5\/gcc_64\/include -I..\/..\/5.5\/gcc_64\/include\/QtWidgets -I..\/..\/5.5\/gcc_64\/include\/QtGui -I..\/..\/5.5\/gcc_64\/include\/QtCore -I. -I..\/..\/5.5\/gcc_64\/mkspecs\/linux-g++$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/home\/all\/work\/qt\/5.5\/gcc_64 -Wl,-rpath,\/home\/all\/work\/qt\/5.5\/gcc_64\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) -L\/home\/all\/work\/qt\/5.5\/gcc_64\/lib -lQt5Widgets -L\/usr\/lib64 -lQt5Gui -lQt5Core -lGL -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	MainWindow.h	2;"	d
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	MainWindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow	signature:(QWidget *parent)
+MainWindow	MainWindow.h	/^        MainWindow(QWidget *parent = 0);$/;"	p	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow	MainWindow.h	/^class MainWindow : public QMainWindow{$/;"	c	inherits:QMainWindow
+MainWindow::MainWindow	MainWindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow	signature:(QWidget *parent)
+MainWindow::MainWindow	MainWindow.h	/^        MainWindow(QWidget *parent = 0);$/;"	p	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow::boxLayout	MainWindow.h	/^        QVBoxLayout     *boxLayout;$/;"	m	class:MainWindow	access:private
+MainWindow::ctrButton	MainWindow.h	/^        CtrButton       *ctrButton;$/;"	m	class:MainWindow	access:private
+MainWindow::initMainWindow	MainWindow.cpp	/^void MainWindow::initMainWindow()$/;"	f	class:MainWindow	signature:()
+MainWindow::initMainWindow	MainWindow.h	/^        void initMainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+MainWindow::mainWidget	MainWindow.h	/^        QWidget         *mainWidget;$/;"	m	class:MainWindow	access:private
+MainWindow::metaObject	moc_MainWindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow	signature:() const
+MainWindow::qt_metacall	moc_MainWindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+MainWindow::qt_metacast	moc_MainWindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow	signature:(const char *_clname)
+MainWindow::qt_static_metacall	moc_MainWindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+MainWindow::redMoving	MainWindow.h	/^        RedMoving       *redMoving;$/;"	m	class:MainWindow	access:private
+MainWindow::scene	MainWindow.h	/^        QGraphicsScene  *scene;$/;"	m	class:MainWindow	access:private
+MainWindow::staticMetaObject	moc_MainWindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+MainWindow::view	MainWindow.h	/^        QGraphicsView   *view;$/;"	m	class:MainWindow	access:private
+MainWindow::~MainWindow	MainWindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow	signature:()
+MainWindow::~MainWindow	MainWindow.h	/^        ~MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = main$/;"	m
+QT_MOC_LITERAL	moc_CtrButton.cpp	25;"	d	file:
+QT_MOC_LITERAL	moc_CtrButton.cpp	37;"	d	file:
+QT_MOC_LITERAL	moc_MainWindow.cpp	25;"	d	file:
+QT_MOC_LITERAL	moc_MainWindow.cpp	37;"	d	file:
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RECT_SIZE	common.h	9;"	d
+REDMOVING_H	RedMoving.h	2;"	d
+RedMoving	RedMoving.h	/^class RedMoving : public QGraphicsItem{$/;"	c	inherits:QGraphicsItem
+RedMoving::boundingRect	RedMoving.cpp	/^QRectF RedMoving::boundingRect() const $/;"	f	class:RedMoving	signature:() const
+RedMoving::boundingRect	RedMoving.h	/^        QRectF boundingRect() const;$/;"	p	class:RedMoving	access:public	signature:() const
+RedMoving::paint	RedMoving.cpp	/^void RedMoving::paint(QPainter *painter,const QStyleOptionGraphicsItem *, QWidget *)$/;"	f	class:RedMoving	signature:(QPainter *painter,const QStyleOptionGraphicsItem *, QWidget *)
+RedMoving::paint	RedMoving.h	/^        void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);$/;"	p	class:RedMoving	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+Shape	Food.h	/^        QPainterPath Shape() const;$/;"	p	class:Food	access:public	signature:() const
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = main$/;"	m
+TILE_SIZE	common.h	5;"	d
+TITLE	common.h	8;"	d
+TXT_PAUSE	common.h	11;"	d
+TXT_START	common.h	10;"	d
+__COMMOM_H__	common.h	2;"	d
+boundingRect	Food.cpp	/^QRectF Food::boundingRect() const$/;"	f	class:Food	signature:() const
+boundingRect	Food.h	/^        QRectF boundingRect() const;$/;"	p	class:Food	access:public	signature:() const
+boundingRect	RedMoving.cpp	/^QRectF RedMoving::boundingRect() const $/;"	f	class:RedMoving	signature:() const
+boundingRect	RedMoving.h	/^        QRectF boundingRect() const;$/;"	p	class:RedMoving	access:public	signature:() const
+boxLayout	CtrButton.h	/^        QHBoxLayout *boxLayout;$/;"	m	class:CtrButton	access:private
+boxLayout	MainWindow.h	/^        QVBoxLayout     *boxLayout;$/;"	m	class:MainWindow	access:private
+ctrButton	MainWindow.h	/^        CtrButton       *ctrButton;$/;"	m	class:MainWindow	access:private
+data	moc_CtrButton.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_CtrButton_t	file:	access:public
+data	moc_MainWindow.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:	access:public
+initMainWindow	MainWindow.cpp	/^void MainWindow::initMainWindow()$/;"	f	class:MainWindow	signature:()
+initMainWindow	MainWindow.h	/^        void initMainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+initPushButton	CtrButton.cpp	/^void CtrButton::initPushButton()$/;"	f	class:CtrButton	signature:()
+initPushButton	CtrButton.h	/^        void initPushButton();$/;"	p	class:CtrButton	access:public	signature:()
+main	main.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+mainWidget	MainWindow.h	/^        QWidget         *mainWidget;$/;"	m	class:MainWindow	access:private
+metaObject	moc_CtrButton.cpp	/^const QMetaObject *CtrButton::metaObject() const$/;"	f	class:CtrButton	signature:() const
+metaObject	moc_MainWindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow	signature:() const
+paint	Food.h	/^        void paint(QPainter *painter, const QStyleOptionGraphicsItem *,QWidget *);$/;"	p	class:Food	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *,QWidget *)
+paint	RedMoving.cpp	/^void RedMoving::paint(QPainter *painter,const QStyleOptionGraphicsItem *, QWidget *)$/;"	f	class:RedMoving	signature:(QPainter *painter,const QStyleOptionGraphicsItem *, QWidget *)
+paint	RedMoving.h	/^        void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);$/;"	p	class:RedMoving	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+pauseButton	CtrButton.h	/^        QPushButton *pauseButton;$/;"	m	class:CtrButton	access:private
+qt_meta_data_CtrButton	moc_CtrButton.cpp	/^static const uint qt_meta_data_CtrButton[] = {$/;"	v	file:
+qt_meta_data_MainWindow	moc_MainWindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_CtrButton	moc_CtrButton.cpp	/^static const qt_meta_stringdata_CtrButton_t qt_meta_stringdata_CtrButton = {$/;"	v	file:
+qt_meta_stringdata_CtrButton_t	moc_CtrButton.cpp	/^struct qt_meta_stringdata_CtrButton_t {$/;"	s	file:
+qt_meta_stringdata_CtrButton_t::data	moc_CtrButton.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_CtrButton_t	file:	access:public
+qt_meta_stringdata_CtrButton_t::stringdata0	moc_CtrButton.cpp	/^    char stringdata0[10];$/;"	m	struct:qt_meta_stringdata_CtrButton_t	file:	access:public
+qt_meta_stringdata_MainWindow	moc_MainWindow.cpp	/^static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {$/;"	v	file:
+qt_meta_stringdata_MainWindow_t	moc_MainWindow.cpp	/^struct qt_meta_stringdata_MainWindow_t {$/;"	s	file:
+qt_meta_stringdata_MainWindow_t::data	moc_MainWindow.cpp	/^    QByteArrayData data[1];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:	access:public
+qt_meta_stringdata_MainWindow_t::stringdata0	moc_MainWindow.cpp	/^    char stringdata0[11];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:	access:public
+qt_metacall	moc_CtrButton.cpp	/^int CtrButton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CtrButton	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_MainWindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	moc_CtrButton.cpp	/^void *CtrButton::qt_metacast(const char *_clname)$/;"	f	class:CtrButton	signature:(const char *_clname)
+qt_metacast	moc_MainWindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow	signature:(const char *_clname)
+qt_static_metacall	moc_CtrButton.cpp	/^void CtrButton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CtrButton	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_MainWindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+redMoving	MainWindow.h	/^        RedMoving       *redMoving;$/;"	m	class:MainWindow	access:private
+scene	MainWindow.h	/^        QGraphicsScene  *scene;$/;"	m	class:MainWindow	access:private
+startButton	CtrButton.h	/^        QPushButton *startButton;$/;"	m	class:CtrButton	access:private
+staticMetaObject	moc_CtrButton.cpp	/^const QMetaObject CtrButton::staticMetaObject = {$/;"	m	class:CtrButton	file:
+staticMetaObject	moc_MainWindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+stringdata0	moc_CtrButton.cpp	/^    char stringdata0[10];$/;"	m	struct:qt_meta_stringdata_CtrButton_t	file:	access:public
+stringdata0	moc_MainWindow.cpp	/^    char stringdata0[11];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:	access:public
+view	MainWindow.h	/^        QGraphicsView   *view;$/;"	m	class:MainWindow	access:private
+~CtrButton	CtrButton.cpp	/^CtrButton::~CtrButton()$/;"	f	class:CtrButton	signature:()
+~CtrButton	CtrButton.h	/^        ~CtrButton();$/;"	p	class:CtrButton	access:public	signature:()
+~MainWindow	MainWindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow	signature:()
+~MainWindow	MainWindow.h	/^        ~MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
